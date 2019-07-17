@@ -54,14 +54,86 @@
 		851D74FE22DF7CD6007D3EC8 /* GameNight */ = {
 			isa = PBXGroup;
 			children = (
-				851D74FF22DF7CD6007D3EC8 /* AppDelegate.swift */,
-				851D750122DF7CD6007D3EC8 /* ViewController.swift */,
-				851D750322DF7CD6007D3EC8 /* Main.storyboard */,
-				851D750622DF7CD8007D3EC8 /* Assets.xcassets */,
-				851D750822DF7CD8007D3EC8 /* LaunchScreen.storyboard */,
-				851D750B22DF7CD8007D3EC8 /* Info.plist */,
+				851D751922DF7D98007D3EC8 /* Models */,
+				851D751822DF7D92007D3EC8 /* Views */,
+				851D751422DF7D5F007D3EC8 /* Controllers */,
+				851D751122DF7D38007D3EC8 /* Storyboards */,
+				851D751222DF7D52007D3EC8 /* Resources */,
 			);
 			path = GameNight;
+			sourceTree = "<group>";
+		};
+		851D751122DF7D38007D3EC8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				851D750322DF7CD6007D3EC8 /* Main.storyboard */,
+				851D750822DF7CD8007D3EC8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		851D751222DF7D52007D3EC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				851D74FF22DF7CD6007D3EC8 /* AppDelegate.swift */,
+				851D750622DF7CD8007D3EC8 /* Assets.xcassets */,
+				851D750B22DF7CD8007D3EC8 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		851D751322DF7D59007D3EC8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				851D750122DF7CD6007D3EC8 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		851D751422DF7D5F007D3EC8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				851D751722DF7D89007D3EC8 /* AnimationControllers */,
+				851D751522DF7D63007D3EC8 /* ModelControllers */,
+				851D751322DF7D59007D3EC8 /* ViewControllers */,
+				851D751622DF7D7E007D3EC8 /* Helpers+Extensions */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		851D751522DF7D63007D3EC8 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		851D751622DF7D7E007D3EC8 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helpers+Extensions";
+			sourceTree = "<group>";
+		};
+		851D751722DF7D89007D3EC8 /* AnimationControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AnimationControllers;
+			sourceTree = "<group>";
+		};
+		851D751822DF7D92007D3EC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		851D751922DF7D98007D3EC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
