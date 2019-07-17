@@ -15,6 +15,7 @@
 		851D750A22DF7CD8007D3EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851D750822DF7CD8007D3EC8 /* LaunchScreen.storyboard */; };
 		851D751B22DF8267007D3EC8 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D751A22DF8267007D3EC8 /* ToDoList.swift */; };
 		851D751D22DF9372007D3EC8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D751C22DF9372007D3EC8 /* Model.swift */; };
+		851D751F22DFDAEF007D3EC8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 851D751E22DFDAEF007D3EC8 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		851D750B22DF7CD8007D3EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		851D751A22DF8267007D3EC8 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		851D751C22DF9372007D3EC8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		851D751E22DFDAEF007D3EC8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		851D74F322DF7CD6007D3EC8 = {
 			isa = PBXGroup;
 			children = (
+				851D751E22DFDAEF007D3EC8 /* Default-568h@2x.png */,
 				851D74FE22DF7CD6007D3EC8 /* GameNight */,
 				851D74FD22DF7CD6007D3EC8 /* Products */,
 			);
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				851D750A22DF7CD8007D3EC8 /* LaunchScreen.storyboard in Resources */,
+				851D751F22DFDAEF007D3EC8 /* Default-568h@2x.png in Resources */,
 				851D750722DF7CD8007D3EC8 /* Assets.xcassets in Resources */,
 				851D750522DF7CD6007D3EC8 /* Main.storyboard in Resources */,
 			);
