@@ -7,4 +7,19 @@
 //
 
 // Project To Do List:
-
+/*
+Julia
+    Model and Model Controller
+ 
+ 
+ 
+ 
+ 
+ 
+Tim
+    View and View Controller
+ 
+ 
+ 
+ 
+*/
