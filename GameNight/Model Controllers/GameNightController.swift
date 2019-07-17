@@ -18,6 +18,9 @@ class GameNightController {
     // CRUD
     
     // Create
+    func create() {
+        
+    }
     
     // Read
     
