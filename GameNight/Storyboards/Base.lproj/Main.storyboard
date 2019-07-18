@@ -225,30 +225,13 @@
                                 <rect key="frame" x="20.5" y="808" width="373" height="44"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gi-IM-2SC">
-                                        <rect key="frame" x="0.0" y="0.0" width="124.5" height="44"/>
-                                        <state key="normal" title="New Game"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="186.5" height="44"/>
+                                        <state key="normal" title="Restart Game"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuK-ku-emr">
-                                        <rect key="frame" x="124.5" y="0.0" width="124" height="44"/>
-                                        <state key="normal" title="Quit"/>
+                                        <rect key="frame" x="186.5" y="0.0" width="186.5" height="44"/>
+                                        <state key="normal" title="New Word"/>
                                     </button>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GGB-Xh-lnN">
-                                        <rect key="frame" x="248.5" y="0.0" width="124.5" height="44"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4z-CY-DnN">
-                                                <rect key="frame" x="0.0" y="0.0" width="52" height="44"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="(number)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8l-ly-YZi">
-                                                <rect key="frame" x="52" y="0.0" width="72.5" height="44"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="obe-Ai-maf"/>
