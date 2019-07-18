@@ -13,7 +13,36 @@ class WordsController {
     // singleton
     static let shared = WordsController()
     
-    // source of truth
-    var words: [Words]?
+    //CRUD
+    
+    // Create 
+    func createRandomWord() -> String {
+
+        // generate randomn number
+        let randomNumber = Int.random(in: 0...WordHelper.wordBank.count)
+            
+        let chosenWord = WordHelper.wordBank[randomNumber]
+        return chosenWord
+
+    }
+    
+    func createCorrectAnswerFeeback() -> String {
+        // generate random number
+        let randomNumber = Int.random(in: 0...FeedbackHelper.correct.count)
+        
+        let correctFeedback = FeedbackHelper.correct[randomNumber]
+        return correctFeedback
+        
+    }
+    func createWrongAnswerFeedback() -> String {
+        
+        // generate random number
+        let randomNumber = Int.random(in: 0...FeedbackHelper.wrong.count)
+        
+        let wrongFeedback = FeedbackHelper.wrong[randomNumber]
+        return wrongFeedback
+    }
+    
+    
     
 }
