@@ -43,6 +43,4 @@ class WordsController {
         return wrongFeedback
     }
     
-    
-    
 }
