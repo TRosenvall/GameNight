@@ -15,6 +15,7 @@ class WordsController {
     
     // Source Of Truth
     var word: String = ""
+    var hangmanWord: String = ""
     
     //CRUD
     
@@ -25,10 +26,10 @@ class WordsController {
         let randomNumber = Int.random(in: 0...WordHelper.wordBank.count-1)
         
         let chosenWord = WordHelper.wordBank[randomNumber]
-        word = chosenWord
+        word = chosenWord.uppercased()
     }
     
-    func createHangManTemplate() -> String {
+    func createHangManTemplate() {
         
         var hangmanWord = ""
         
@@ -38,14 +39,14 @@ class WordsController {
             
             hangmanWord += "_"
         }
-        return hangmanWord
+        self.hangmanWord = hangmanWord
     }
     
     // Update
-    func updateHangManWord(letter: Character) -> String {
+    func updateHangManWord(letter: Character) {
         
         let chosenWord = self.word
-        var hangmanWordUpdated = self.createHangManTemplate()
+        var hangmanWordUpdated = hangmanWord
         
         if chosenWord.contains(letter) {
             
@@ -78,7 +79,7 @@ class WordsController {
                 hangmanWordUpdated.remove(at: hangmanWordUpdated.index(after: index))
             }
         }
-        return hangmanWordUpdated
+        self.hangmanWord = hangmanWordUpdated
     }
     
     func createCorrectAnswerFeedback() -> String {

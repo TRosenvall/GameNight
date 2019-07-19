@@ -18,6 +18,8 @@
 		851D752522E10E8F007D3EC8 /* LetterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D752422E10E8F007D3EC8 /* LetterCollectionViewCell.swift */; };
 		851D752B22E11616007D3EC8 /* WordHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D752A22E11616007D3EC8 /* WordHelper.swift */; };
 		851D752D22E11640007D3EC8 /* FeedbackHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D752C22E11640007D3EC8 /* FeedbackHelper.swift */; };
+		851D752F22E11BB9007D3EC8 /* AlphabetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D752E22E11BB9007D3EC8 /* AlphabetController.swift */; };
+		851D753122E11E26007D3EC8 /* wrongLetterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D753022E11E26007D3EC8 /* wrongLetterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		851D752422E10E8F007D3EC8 /* LetterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCollectionViewCell.swift; sourceTree = "<group>"; };
 		851D752A22E11616007D3EC8 /* WordHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordHelper.swift; sourceTree = "<group>"; };
 		851D752C22E11640007D3EC8 /* FeedbackHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackHelper.swift; sourceTree = "<group>"; };
+		851D752E22E11BB9007D3EC8 /* AlphabetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetController.swift; sourceTree = "<group>"; };
+		851D753022E11E26007D3EC8 /* wrongLetterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrongLetterCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		851D751322DF7D59007D3EC8 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				851D752E22E11BB9007D3EC8 /* AlphabetController.swift */,
 				851D752222E0F20E007D3EC8 /* PlayGameViewController.swift */,
 			);
 			path = ViewControllers;
@@ -125,8 +130,8 @@
 		851D751622DF7D7E007D3EC8 /* Helpers+Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				851D752A22E11616007D3EC8 /* WordHelper.swift */,
 				851D752C22E11640007D3EC8 /* FeedbackHelper.swift */,
+				851D752A22E11616007D3EC8 /* WordHelper.swift */,
 			);
 			path = "Helpers+Extensions";
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				851D752422E10E8F007D3EC8 /* LetterCollectionViewCell.swift */,
+				851D753022E11E26007D3EC8 /* wrongLetterCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,11 +232,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851D752F22E11BB9007D3EC8 /* AlphabetController.swift in Sources */,
 				851D752322E0F20E007D3EC8 /* PlayGameViewController.swift in Sources */,
 				851D752D22E11640007D3EC8 /* FeedbackHelper.swift in Sources */,
 				851D752B22E11616007D3EC8 /* WordHelper.swift in Sources */,
 				851D752522E10E8F007D3EC8 /* LetterCollectionViewCell.swift in Sources */,
 				6A12070422DFD2B900CF72C7 /* WordsController.swift in Sources */,
+				851D753122E11E26007D3EC8 /* wrongLetterCollectionViewCell.swift in Sources */,
 				6A12070222DFD1B300CF72C7 /* Words.swift in Sources */,
 				851D750022DF7CD6007D3EC8 /* AppDelegate.swift in Sources */,
 			);
