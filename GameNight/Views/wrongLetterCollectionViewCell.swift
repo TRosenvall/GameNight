@@ -1,5 +1,5 @@
 //
-//  LetterCollectionViewCell.swift
+//  wrongLetterCollectionViewCell.swift
 //  GameNight
 //
 //  Created by Timothy Rosenvall on 7/18/19.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class LetterCollectionViewCell: UICollectionViewCell {
+class wrongLetterCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var letterLabel: UILabel!
+    @IBOutlet weak var wrongLetterLabel: UILabel!
     
 }
